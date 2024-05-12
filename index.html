@@ -30,15 +30,20 @@
   <body>
     <div class="container">
       <h1>WORLD CLOCK</h1>
-      <select name="" id="">
+      <select name="" id="city">
         <option value="">Select a City</option>
-        <option value="">Zürich</option>
-        <option value="">Boston</option>
-        <option value="">Tokyo</option>
-        <option value="">Colombo</option>
+        <option value="Europe/Zurich">Zürich</option>
+        <option value="Europe/Moscow">Moscow</option>
+        <option value="America/New_York">Boston</option>
+        <option value="America/Los_Angeles">San Francisco</option>
+        <option value="Pacific/Honolulu">Honolulu</option>
+        <option value="Africa/Johannesburg">Cape Town</option>
+        <option value="Australia/Sydney">Sydney</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="Asia/Colombo">Colombo</option>
       </select>
-
-      <div class="city" id="zurich">
+      <div id="cities">
+        <div class="city" id="zurich">
         <div>
           <h2>ZÜRICH</h2>
           <div class="date">May 10th 2024</div>
@@ -57,7 +62,6 @@
         <div class="time">
           11:48:15
           <small>AM</small>
-        </div>
       </div>
     </div>
     <footer>

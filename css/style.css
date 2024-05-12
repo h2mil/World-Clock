@@ -48,7 +48,7 @@ select {
 }
 
 .city:last-child {
-  border: none;
+  border-bottom: none;
 }
 
 .date {
@@ -73,6 +73,7 @@ select {
 
 footer {
   text-align: center;
-  font-family: Oswald;
-  opacity: 0.6;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  padding-top: 15px;
 }
