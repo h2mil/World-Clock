@@ -1,17 +1,22 @@
 body {
-  background-color: rgb(232, 228, 248);
+  background-color: white;
 }
 
 h1 {
-  font-family: Quicksand;
-  font-size: 36px;
-  font-weight: bold;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: white;
   text-align: center;
+  margin: 10px;
+  letter-spacing: 7px;
 }
 
 h2 {
-  font-family: Quicksand;
+  font-family: "Titillium Web", sans-serif;
   font-size: 30px;
+  font-weight: 400;
+  color: white;
   margin: 0;
 }
 
@@ -21,7 +26,9 @@ select {
   width: 80%;
   border-radius: 4px;
   padding: 10px;
-  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  background-color: rgb(224, 250, 249);
 }
 .container {
   max-width: 600px;
@@ -29,7 +36,7 @@ select {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px 1px #dbdbff;
-  background: white;
+  background: black;
 }
 
 .city {
@@ -37,7 +44,7 @@ select {
   justify-content: space-between;
   padding: 0 0 20px;
   margin-top: 20px;
-  border-bottom: 1px dotted grey;
+  border-bottom: 1px dotted #e8fa97;
 }
 
 .city:last-child {
@@ -46,21 +53,22 @@ select {
 
 .date {
   font-size: 18px;
-  font-family: Oswald;
-  opacity: 0.5;
+  font-family: "Titillium Web", sans-serif;
+  color: rgb(204, 255, 252);
 }
 
 .time {
-  font-size: 36px;
-  font-weight: bold;
-  font-family: Oswald;
+  font-size: 70px;
+  font-family: Teko;
+  letter-spacing: 4px;
+  color: #d7f845;
   display: flex;
   justify-content: end;
 }
 
 .time small {
-  font-size: 18px;
-  margin: 6px 0 0 5px;
+  font-size: 24px;
+  margin: 16px 0 0 5px;
 }
 
 footer {
