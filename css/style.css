@@ -71,6 +71,10 @@ select {
   margin: 16px 0 0 5px;
 }
 
+.back-to-cities {
+  padding-top: 20px;
+}
+
 footer {
   text-align: center;
   font-family: "Titillium Web", sans-serif;
