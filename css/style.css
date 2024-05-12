@@ -23,7 +23,7 @@ h2 {
 select {
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 65%;
   border-radius: 4px;
   padding: 10px;
   font-family: "Titillium Web", sans-serif;
@@ -33,7 +33,7 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  padding: 30px;
+  padding: 15px 35px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px 1px #dbdbff;
   background: black;
