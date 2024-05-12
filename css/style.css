@@ -32,7 +32,7 @@ select {
 }
 .container {
   max-width: 600px;
-  margin: 60px auto;
+  margin: 60px auto 20px;
   padding: 15px 35px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px 1px #dbdbff;
@@ -74,6 +74,6 @@ select {
 footer {
   text-align: center;
   font-family: "Titillium Web", sans-serif;
-  color: white;
-  padding-top: 15px;
+  color: rgb(76, 75, 75);
+  padding-bottom: 60px;
 }
