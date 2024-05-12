@@ -22,6 +22,18 @@ function updateTime() {
       "h:mm:ss[<small>]A[</small>]"
     );
   }
+
+  let vladivostokElement = document.querySelector("#vladivostok");
+  if (vladivostokElement) {
+    let vladivostokDateElement = vladivostokElement.querySelector(".date");
+    let vladivostokTimeElement = vladivostokElement.querySelector(".time");
+    let vladivostokTime = moment().tz("Asia/Vladivostok");
+
+    vladivostokDateElement.innerHTML = vladivostokTime.format("MMMM Do YYYY");
+    vladivostokTimeElement.innerHTML = vladivostokTime.format(
+      "h:mm:ss[<small>]A[</small>]"
+    );
+  }
 }
 
 function updateCity(event) {
@@ -39,9 +51,7 @@ function updateCity(event) {
             <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
           </div>
           <div class="time">
-            ${cityTime.format("hh:mm:ss")} <small>${cityTime.format(
-    "A"
-  )}</small>
+            ${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small>
           </div>
         </div>
         <a href="index.html">All cities</a>
