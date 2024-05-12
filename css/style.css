@@ -3,10 +3,16 @@ body {
 }
 
 h1 {
-  text-align: center;
   font-family: Quicksand;
-  font-weight: bold;
   font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-family: Quicksand;
+  font-size: 30px;
+  margin: 0;
 }
 
 select {
@@ -17,21 +23,13 @@ select {
   padding: 10px;
   font-size: 18px;
 }
-
-h2 {
-  font-family: Quicksand;
-  font-size: 30px;
-  margin: 0;
-}
-
 .container {
   max-width: 600px;
-  display: block;
   margin: 60px auto;
-  background: white;
-  box-shadow: 5px 5px 10px 1px #dbdbff;
   padding: 30px;
   border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px #dbdbff;
+  background: white;
 }
 
 .city {
